@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', system-ui;
+    background: linear-gradient(rgb(101, 212, 255),pink);
+    color: #ffffff;
+   }
+   h3, h4 , h5{
+    text-shadow: 0px 0px 5px black ;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-img {
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 400px;
+    background-image: url("images/gift.png");
+    background-size:cover;
+    align-items: center;
+    margin: 0 auto; 
+}
+.gift-title {
+    margin-bottom: 10;}
+   
+.gift-hint {
+    margin-top: 0;}
+
+.gift-section{ 
+   margin-top: 50px;}
+
+h5{background:pink;
+    width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px; }
+
+h4{
+    background:pink;
+  width: 100px;
+padding: 5px 10px;
+border-radius: 5px;
+margin-bottom: 3px;}
+
+.imgs{
+ border-radius:400px;
+width:200px;
+border:5px solid hwb(350 75% 0%);
+border-bottom: 10px; }
+
+#gift-img-o:hover{
+background-image: url(images/lkj.gif);
+height:200px;}
+
+#gift-img-i:hover{
+    background-image: url(images/apr.gif);
+height:200px;}
+
+#gift-img-h:hover{
+        background-image: url(images/math.gif);
+    height:400px;}
+      
+ #gift-img-g:hover{
+            background-image: url("images/genius.gif");
+            height: 200px; }
+
+#gift-img-cheers {
+height: 200px;}
+        
+        #gift-img-cheers:hover {
+            background-image: url("images/congrats.gif");
+            height:400px;
+        }
+        #footer {
+             width: 400px;
+            font-style:italic;
+            margin:0px auto;
+            padding: 30px;
+        }
+
+        
